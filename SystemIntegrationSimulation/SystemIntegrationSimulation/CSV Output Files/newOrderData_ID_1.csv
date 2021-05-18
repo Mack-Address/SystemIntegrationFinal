@@ -1,0 +1,4 @@
+orderCode,orderPriority,itemCode,itemName,weight,warehouseItemLocationCode, itemXCoordinate, itemYCoordinate, itemZcoordinate, itemTheta
+integer,1 = high 0 = normal,integer,string,integer (g),integer (rack:bay:level),integer cm,integer cm,integer cm,int 0-359 
+1234,1,567,tshirt,300,01:02:03,270000,5600000,50,270
+1234,1,765,trousers,1000,09:04:01,500000,120000,0,180

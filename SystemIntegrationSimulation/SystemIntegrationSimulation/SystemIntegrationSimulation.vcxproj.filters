@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Subsystems">
+      <UniqueIdentifier>{95cbb126-2f0b-418d-b6a1-d70436eaf760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External Libraries">
+      <UniqueIdentifier>{518b27e1-7d77-40de-a08b-7849a3106660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystem Headers">
+      <UniqueIdentifier>{16047acd-03ce-4c9f-92a4-361ac80dcb6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External Headers">
+      <UniqueIdentifier>{195e3ae7-b501-4f2c-8c08-d2e41c893dd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Communications.cpp">
+      <Filter>Source Files\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Drive.cpp">
+      <Filter>Source Files\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Lifting.cpp">
+      <Filter>Source Files\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Navigation.cpp">
+      <Filter>Source Files\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Picking.cpp">
+      <Filter>Source Files\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Power.cpp">
+      <Filter>Source Files\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Subsystem.cpp">
+      <Filter>Source Files\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemIntegrationSimulation.cpp">
+      <Filter>Source Files\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dropbox\EEE work folder\EEE Year 3\S2\EE30147\2. Technical\ProgramSimulation\Libraries\fake_clock.cc">
+      <Filter>Source Files\External Libraries</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Communications.hpp">
+      <Filter>Header Files\Subsystem Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Drive.hpp">
+      <Filter>Header Files\Subsystem Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Lifting.hpp">
+      <Filter>Header Files\Subsystem Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Navigation.hpp">
+      <Filter>Header Files\Subsystem Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Picking.hpp">
+      <Filter>Header Files\Subsystem Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Power.hpp">
+      <Filter>Header Files\Subsystem Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Subsystem.hpp">
+      <Filter>Header Files\Subsystem Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dropbox\EEE work folder\EEE Year 3\S2\EE30147\2. Technical\ProgramSimulation\Libraries\fake_clock.hh">
+      <Filter>Header Files\External Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemIntegrationSimulation.hpp">
+      <Filter>Header Files\Subsystem Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidcsv.h">
+      <Filter>Header Files\External Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

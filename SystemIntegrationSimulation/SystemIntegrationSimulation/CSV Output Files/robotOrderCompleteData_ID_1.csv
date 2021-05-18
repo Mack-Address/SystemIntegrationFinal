@@ -1,0 +1,4 @@
+ orderCodeCompleted,ItemCodeCompleted,warehouseItemLocationCode, updatedXCoordinate, updatedYCoordinate, updatedZcoordinate, updatedTheta
+integer,Integer,"integer (rack,bay,level)",integer cm,integer cm,integer cm,int 0-359 
+1234,51,02:04:02,3014,9120,151,180
+1234,12,01:10:08,1000,15000,52,359

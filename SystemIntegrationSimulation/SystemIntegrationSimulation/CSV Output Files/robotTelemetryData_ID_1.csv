@@ -1,0 +1,3 @@
+currentTime,currentXCoordinate, currentYCoordinate, battery,jobStatus,jobsInQueue,unexpectedObstical
+"hour, minute, second",integer cm,integer cm,integer 0-100,1 = working 0 = idle,integer,"1 = yes, 0 = no"
+10:24:31,1050,2050,98,1,10,0
